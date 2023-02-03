@@ -28,4 +28,16 @@ endmodule
     NAME= 
     */
 
+    // Code your testbench here
+// or browse Examples
+module array();
+  reg[4*8-1:0] name;
+  initial begin
+    name = "poem";
+//     for(integer i=0;i<name;i=i+1)begin
+    $display("%s",name[4*8-1:0]);
+//     end
+  end
+endmodule
+
     
